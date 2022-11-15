@@ -118,7 +118,8 @@ WriteLine("Вариант 1: ");
 while (startNumber <= number)
 {
     Write($"{startNumber} ");
-    startNumber = startNumber + 2;
+    //startNumber = startNumber + 2;
+    startNumber+=2;
 }
 
 //Вариант 2
